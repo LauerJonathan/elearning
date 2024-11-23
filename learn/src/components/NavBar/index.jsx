@@ -1,9 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import logo from "../../assets/media/hrNetLogo.png";
+import "./index.css";
+
 const NavBar = () => {
   return (
     <nav>
+      <img src={logo} alt="hrnet logo" />
       <ul>
         <li>
           <Link to="/">Home</Link>
