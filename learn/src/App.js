@@ -9,7 +9,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Routing basename="https://LauerJonathan.github.io/elearning/">
+      {/*basename="/elearning/"*/}
+      <Routing>
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/list" element={<List />}></Route>

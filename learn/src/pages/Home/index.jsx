@@ -3,7 +3,7 @@ import NavBar from "../../components/NavBar";
 const Home = () => {
   return (
     <>
-      <NavBar />
+      <NavBar active="home"/>
       <h1>Hello worlds !</h1>
     </>
   );

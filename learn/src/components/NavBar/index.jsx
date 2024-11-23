@@ -1,19 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import logo from "../../assets/media/hrNetLogo.png";
+import logo from "../../assets/media/hrNetLogo.webp";
 import "./index.css";
 
-const NavBar = () => {
+const NavBar = ({ active }) => {
   return (
     <nav>
       <img src={logo} alt="hrnet logo" />
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" className={active === "home" ? "active" : ""}>
+            Add an employee
+          </Link>
         </li>
         <li>
-          <Link to="list">List</Link>
+          <Link to="list" className={active === "list" ? "active" : ""}>
+            View employee list
+          </Link>
         </li>
       </ul>
     </nav>
