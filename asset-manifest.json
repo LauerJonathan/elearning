@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/elearning/static/css/main.ff3f3356.css",
-    "main.js": "/elearning/static/js/main.e547bff2.js",
+    "main.js": "/elearning/static/js/main.3525fc2a.js",
     "static/js/453.a5363aef.chunk.js": "/elearning/static/js/453.a5363aef.chunk.js",
     "static/media/hrNetLogo.png": "/elearning/static/media/hrNetLogo.e46dac74716fd4832303.png",
     "index.html": "/elearning/index.html",
     "main.ff3f3356.css.map": "/elearning/static/css/main.ff3f3356.css.map",
-    "main.e547bff2.js.map": "/elearning/static/js/main.e547bff2.js.map",
+    "main.3525fc2a.js.map": "/elearning/static/js/main.3525fc2a.js.map",
     "453.a5363aef.chunk.js.map": "/elearning/static/js/453.a5363aef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff3f3356.css",
-    "static/js/main.e547bff2.js"
+    "static/js/main.3525fc2a.js"
   ]
 }
