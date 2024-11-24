@@ -10,7 +10,8 @@ nav {
 }
 
 nav img {
-  height: 70%;
+  height: calc(100% - 40px);
+  transform: translateX(-10px);
 }
 
 nav ul {
@@ -23,9 +24,10 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   color: white;
+  font-size: 1.2em;
 }
 
-nav ul li a.active {
+nav ul li.active a {
   text-decoration: underline;
   font-weight: bold;
 }
@@ -34,7 +36,11 @@ nav ul li a.active {
   nav {
     padding: 0 10px;
   }
-  nav ul li a:not(.active) {
+  nav img {
+    height: calc(100% - 20px);
+    transform: translateX(0);
+  }
+  nav ul li.active {
     display: none;
   }
 }

@@ -1,5 +1,7 @@
 :root {
   --primary: #1f1111;
+  --secondary: #cbf0cb;
+  --secondaryContrast: #103f10;
 }
 
 body {

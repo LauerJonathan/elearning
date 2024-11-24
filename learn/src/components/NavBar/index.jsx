@@ -9,13 +9,13 @@ const NavBar = ({ active }) => {
     <nav>
       <img src={logo} alt="hrnet logo" />
       <ul>
-        <li>
-          <Link to="/" className={active === "home" ? "active" : ""}>
+        <li className={active === "home" ? "active" : ""}>
+          <Link to="/">
             Add an employee
           </Link>
         </li>
-        <li>
-          <Link to="list" className={active === "list" ? "active" : ""}>
+        <li className={active === "list" ? "active" : ""}>
+          <Link to="list">
             View employee list
           </Link>
         </li>

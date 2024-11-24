@@ -1,0 +1,143 @@
+section.form {
+  width: 100%;
+  margin: 100px 0;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form--header {
+  width: 50%;
+  color: var(--primary);
+  border: 6px solid var(--primary);
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form--header h1 {
+  margin-left: 50px;
+  font-size: 2.4em;
+}
+
+.form--header img.drawnemployeeIMG {
+  transform: translateY(24px);
+  width: 200px;
+  height: 250px;
+  object-fit: contain;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(50% + 52px);
+  gap: 30px;
+  background-color: var(--primary);
+  padding: 50px;
+  box-sizing: border-box;
+  border: 6px solid var(--primary);
+  border-radius: 0 0 20px 20px;
+}
+
+form > div {
+  width: calc(50% - 15px);
+}
+
+form > div label {
+  margin: 5px 15px;
+}
+
+form > div input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 15px;
+}
+
+form > div > *:not(input) {
+  display: block;
+  color: white;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: var(--secondary);
+  border: 2px solid var(--secondaryContrast);
+  color: var(--secondaryContrast);
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 1300px) {
+  .form--header {
+    width: 70%;
+  }
+  form {
+    width: calc(70% + 52px);
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  section.form {
+    margin: 50px 0;
+  }
+  .form--header {
+    width: 80%;
+  }
+  form {
+    width: calc(80% + 52px);
+  }
+
+  .form--header h1 {
+    font-size: 2em;
+  }
+
+  .form--header img.drawnemployeeIMG {
+    width: 150px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  section.form {
+    margin: 5vw 0;
+  }
+  .form--header {
+    flex-direction: column-reverse;
+  }
+  .form--header h1 {
+    display: block;
+    position: relative;
+    top: 20px;
+    left: -25px;
+    width: calc(100% + 40px);
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 0;
+    z-index: 2x;
+    text-align: center;
+    font-size: 1.4em;
+  }
+  .form--header img.drawnemployeeIMG {
+    transform: translateY(20px);
+    width: 100px;
+    height: 125px;
+  }
+  form {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  form > div {
+    width: 100%;
+  }
+}
