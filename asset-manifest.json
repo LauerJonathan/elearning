@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/elearning/static/css/main.3c324229.css",
-    "main.js": "/elearning/static/js/main.a2e01515.js",
+    "main.js": "/elearning/static/js/main.524fca8a.js",
     "static/js/453.a5363aef.chunk.js": "/elearning/static/js/453.a5363aef.chunk.js",
     "static/media/employee.webp": "/elearning/static/media/employee.2a0771647d935c001553.webp",
     "static/media/hrNetLogo.webp": "/elearning/static/media/hrNetLogo.4e33304e83eb430e0e63.webp",
     "index.html": "/elearning/index.html",
     "main.3c324229.css.map": "/elearning/static/css/main.3c324229.css.map",
-    "main.a2e01515.js.map": "/elearning/static/js/main.a2e01515.js.map",
+    "main.524fca8a.js.map": "/elearning/static/js/main.524fca8a.js.map",
     "453.a5363aef.chunk.js.map": "/elearning/static/js/453.a5363aef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3c324229.css",
-    "static/js/main.a2e01515.js"
+    "static/js/main.524fca8a.js"
   ]
 }
