@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Routing, Routes, Route } from "react-router-dom";
+import { UserContextProvider } from "./context";
 
 import Home from "./pages/Home";
 import List from "./pages/List";
@@ -11,10 +12,12 @@ function App() {
     <>
       {/*basename="/elearning/"*/}
       <Routing>
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/list" element={<List />}></Route>
-        </Routes>
+        <UserContextProvider>
+          <Routes>
+            <Route exact path="/" element={<Home />}></Route>
+            <Route exact path="/list" element={<List />}></Route>
+          </Routes>
+        </UserContextProvider>
       </Routing>
     </>
   );
