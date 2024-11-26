@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       {/*basename="/elearning/"*/}
-      <Routing>
+      <Routing basename="">
         <UserContextProvider>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>

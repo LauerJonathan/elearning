@@ -1,6 +1,7 @@
 import NavBar from "../../components/NavBar";
 import { useState, useContext } from "react";
 import UserContext from "../../context";
+import StatusModal from "../../components/StatusModal";
 
 /********** import media here ***********/
 import drawnEmployee from "../../assets/media/employee.webp";
@@ -19,6 +20,12 @@ const Home = () => {
   const [departmentIMG, setDepIMG] = useState(devIMG);
   const [birthdate, setBD] = useState("");
   const [startDate, setSD] = useState("");
+  const [status, setStatus] = useState({
+    code: null,
+    txt: "Employee added successfully !",
+  });
+  /****** StatusModal ******/
+  const [modalState, setModalState] = useState(false);
 
   const onChangeFN = (e) => {
     setFN(e.target.value);
@@ -60,10 +67,22 @@ const Home = () => {
       startDate: startDate,
     });
     setList(updtList);
+
+    setStatus({
+      code: 200,
+      txt: "Employee added successfully !",
+    });
+
+    setModalState(true);
+    setFN("");
+    setLN("");
+    setBD("");
+    setSD("");
   };
 
   return (
     <>
+      {modalState && <StatusModal content={status} stateFct={setModalState} />}
       <NavBar active="home" />
       <section className="form">
         <div className="form--header">
@@ -114,8 +133,8 @@ const Home = () => {
             <select name="department" onChange={onChangeDep} id="department">
               <option value="dev">Developer</option>
               <option value="seller">Seller</option>
-              <option value="teacher">Technician</option>
-              <option value="technician">Teacher</option>
+              <option value="technician">Technician</option>
+              <option value="teacher">Teacher</option>
             </select>
           </div>
           <button>Welcome</button>
