@@ -10,8 +10,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/*basename="/elearning/"*/}
-      <Routing basename="">
+      {/*basename="/hrnet/"*/}
+      <Routing basename="/hrnet/">
         <UserContextProvider>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
