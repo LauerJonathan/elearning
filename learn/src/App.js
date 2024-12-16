@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       {/*basename="/hrnet/"*/}
-      <Routing basename="">
+      <Routing basename="/hrnet/">
         <UserContextProvider>
           <Routes>
             <Route exact path="/" element={<Home />}></Route>
