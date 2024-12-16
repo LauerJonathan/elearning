@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/elearning/static/css/main.adc8af28.css",
-    "main.js": "/elearning/static/js/main.6fd614de.js",
-    "static/js/453.031ecfce.chunk.js": "/elearning/static/js/453.031ecfce.chunk.js",
-    "static/media/employee.png": "/elearning/static/media/employee.6f6dc2e1f96d044b2f28.png",
-    "static/media/buble.png": "/elearning/static/media/buble.69c6b57d97487232ca9e.png",
-    "static/media/hrNetLogo.png": "/elearning/static/media/hrNetLogo.e46dac74716fd4832303.png",
-    "index.html": "/elearning/index.html",
-    "main.adc8af28.css.map": "/elearning/static/css/main.adc8af28.css.map",
-    "main.6fd614de.js.map": "/elearning/static/js/main.6fd614de.js.map",
-    "453.031ecfce.chunk.js.map": "/elearning/static/js/453.031ecfce.chunk.js.map"
+    "main.css": "/static/css/main.adc8af28.css",
+    "main.js": "/static/js/main.af9beccd.js",
+    "static/js/453.031ecfce.chunk.js": "/static/js/453.031ecfce.chunk.js",
+    "static/media/employee.png": "/static/media/employee.6f6dc2e1f96d044b2f28.png",
+    "static/media/buble.png": "/static/media/buble.69c6b57d97487232ca9e.png",
+    "static/media/hrNetLogo.png": "/static/media/hrNetLogo.e46dac74716fd4832303.png",
+    "index.html": "/index.html",
+    "main.adc8af28.css.map": "/static/css/main.adc8af28.css.map",
+    "main.af9beccd.js.map": "/static/js/main.af9beccd.js.map",
+    "453.031ecfce.chunk.js.map": "/static/js/453.031ecfce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adc8af28.css",
-    "static/js/main.6fd614de.js"
+    "static/js/main.af9beccd.js"
   ]
 }
