@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/hrnet/static/css/main.adc8af28.css",
-    "main.js": "/hrnet/static/js/main.f2fdd907.js",
-    "static/js/453.031ecfce.chunk.js": "/hrnet/static/js/453.031ecfce.chunk.js",
-    "static/media/employee.png": "/hrnet/static/media/employee.6f6dc2e1f96d044b2f28.png",
-    "static/media/buble.png": "/hrnet/static/media/buble.69c6b57d97487232ca9e.png",
-    "static/media/hrNetLogo.png": "/hrnet/static/media/hrNetLogo.e46dac74716fd4832303.png",
-    "index.html": "/hrnet/index.html",
-    "main.adc8af28.css.map": "/hrnet/static/css/main.adc8af28.css.map",
-    "main.f2fdd907.js.map": "/hrnet/static/js/main.f2fdd907.js.map",
-    "453.031ecfce.chunk.js.map": "/hrnet/static/js/453.031ecfce.chunk.js.map"
+    "main.css": "/elearning/static/css/main.adc8af28.css",
+    "main.js": "/elearning/static/js/main.6fd614de.js",
+    "static/js/453.031ecfce.chunk.js": "/elearning/static/js/453.031ecfce.chunk.js",
+    "static/media/employee.png": "/elearning/static/media/employee.6f6dc2e1f96d044b2f28.png",
+    "static/media/buble.png": "/elearning/static/media/buble.69c6b57d97487232ca9e.png",
+    "static/media/hrNetLogo.png": "/elearning/static/media/hrNetLogo.e46dac74716fd4832303.png",
+    "index.html": "/elearning/index.html",
+    "main.adc8af28.css.map": "/elearning/static/css/main.adc8af28.css.map",
+    "main.6fd614de.js.map": "/elearning/static/js/main.6fd614de.js.map",
+    "453.031ecfce.chunk.js.map": "/elearning/static/js/453.031ecfce.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adc8af28.css",
-    "static/js/main.f2fdd907.js"
+    "static/js/main.6fd614de.js"
   ]
 }
